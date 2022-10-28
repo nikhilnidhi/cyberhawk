@@ -1,0 +1,30 @@
+#red{
+color: green;
+}
+#hey{
+    color: blueviolet;
+}
+ul{
+    color: aqua;
+}
+#k{
+    color: brown;
+}
+ul{
+    color: black;
+   }
+   #hi{
+    color: blue;
+   }
+   h2.hello{
+    color: yellow;
+   }
+   body {
+    background-image: url('tree.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%S;
+  }
+  h1{
+    color: blue;
+  }

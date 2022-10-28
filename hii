@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title> Hi</title>
+</head>
+<body>
+    <form>
+        
+        
+        <input type="text" name="name" id="name" placeholder="Enter the name "/>
+        <input type="submit" name="submit" id="submit"/>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>
+        this </title>
+        <style>
+            div p{
+                background-color: whitesmoke;
+            }
+        </style>
+        </head>
+            <body>
+                <div>
+                    <p>This paragraph 1 </p>
+                    <p>This paragraph 2 </p>
+                    <section> 
+                        <p>
+                            This Paragraph </p>
+                    </section>
+                </div>
+            </body>
+</html>
+        

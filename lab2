@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>
+        Lab2
+    </title>
+    <style>
+        body{
+            color: grey;
+        }
+        h2{
+color: blue;
+        }
+        #hi{
+            color: blueviolet;
+        }
+        .hello{
+            color: aqua;
+        }
+        </style>
+</head>
+<body>
+    <h1 style="color: red;">amal jyothi college of engineering</h1>
+    <h1 id="hi"> information technology</h1>
+    <h1 class="hello">kottayam</h1>
+    <h2>kanjirappaly</h2>
+</body>
+</html>

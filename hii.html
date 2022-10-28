@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title> Hi</title>
+    <style>
+        .form{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body >
+    <h1>Login Page</h1>
+    <form >
+        
+        
+        <input type="text" name="name" id="name" placeholder="Enter the name "/>
+        <input type="submit" name="submit" id="submit"/>
+        <br>
+        <br>
+        
+        <label for="add">Address</label>
+        <textarea name="Text" cols="20" rows="5" placeholder="Enter Address"></textarea>
+        <br>
+        <br>
+        <label for="user-password">Password</label>
+        <input type="password" name="user-password" id="user-password" placeholder="Enter password">
+        <br>
+        <br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <input type="checkbox" name="sports" id="soccer">
+        <label for="soccer">Soccer</label>
+        <input type="checkbox" name="sports" id="cricket">
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" name="sports" id="baseball">
+        <label for="baseball">Baseball</label>
+        <br>
+        <br>
+        <input type="checkbox" name="hobbies" id="music">
+        <label for="music"> Listening to Music</label>
+        <input type="checkbox" name="hobbies" id="Dancing">
+        <label for="Dancing">Dancing</label>
+        <br>
+        <br>
+        <input type="radio" name="department" id="IT">
+        <label for="IT">IT</label>
+        <input type="radio" name="department" id="CSE">
+        <label for="CSE">CSE</label>
+        <br>
+        <br>
+        <label for="file-select">Upload</label>
+        <input type="file" name="upload" id="file-select">
+        <br>
+        <br>
+        <label for="state">State</label>
+        <select name="state" id="state">
+            <option value="karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Chennai">Chennai</option>
+
+        </select>
+        <br>
+        <br>
+        <form action="action.php" method="post">
+        <label for="first-name">First-name</label>
+        <input type="text" name="first-name" id="first-name">
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+
+       </form>
+<fieldset> <legend> Contact Details</legend>
+    <label > email Address:<input type="email" name="email"</label>
+    <label> Phone Number:<input type="text" name="phone"</label>
+</fieldset>
+<br>
+<br>
+<label for="mycolor">select color:</label>
+         <input type="color" value="00ff00" id="mycolor"> 
+         <br>
+         <br>
+<label for="mydate">select Date</label>
+<input type="date" id="mydate " name="mydate" min="22-11-2002" >
+<br>
+<br>
+<label for="datemax">Enter a date before</label>
+<input type="date" id="datemax" name="datemax" max="22-11-2022">
+<br>
+<br>
+<label for="mydatetime">choose date and time</label>
+<input type="datetime-local" id="mydatetime">
+<br>
+<br>
+<label for="myemail">Email Address</label>
+<input type="email" id="myemail" required>
+<br>
+<br>
+<label for="mymonth">select Month</label>
+<input type="month" id="mymonth">
+<br>
+<br>
+<label for="mynumber">Enter a Number</label>
+<input type="number" min="20" max="24" step="0.5" id="mynumber">
+<br>
+<br>
+<label for="vol">Volume(between 0 and 50):</label>
+<input type="range" id="vol" name="vol" min="0" max="50" value="0">
+<input type="submit" value="submit">
+<br>
+<br>
+<label for="myphone" >Telephone Number</label>
+<input type="tel" id="myphone" placeholder="xx-xxxx-xxxx" maxlength="10"  required>
+<label for="myweek">Select Week</label>
+<input type="week" id="myweek">
+<label for="myurl">Url</label>
+<input type="url" id="myurl">
+    </form>
+
+</body>
+</html>

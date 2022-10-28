@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>HI WORLD </title>
+        <style>
+            p{
+           color: yellow;
+           font-size: 20px;
+           text-align: center;
+            }
+            </style>
+    </head>
+    <body>
+        <h >This
+        </h>
+        <p >This is where the belongs too</p>
+        <p id="paral">Hello world</p>
+    </body>
+</html>
